@@ -4,36 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Growth Audit</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
 
-<div class="container">
+<div class="noise"></div>
 
-    <h1>Free AI Business Audit</h1>
+<div class="page-wrap">
 
-    <form id="leadForm">
+    <aside class="left-col">
+        <div class="left-inner">
+            <div class="tag">AI Growth Audit</div>
+            <h1 class="headline">
+                <span class="line">Your next</span>
+                <span class="line accent">10x</span>
+                <span class="line">starts here.</span>
+            </h1>
+            <p class="sub">
+                Drop your details. We'll analyze your business and send you a custom AI growth report — free, fast, and ruthlessly useful.
+            </p>
+            <ul class="proof">
+                <li><span class="dot"></span>Delivered to your inbox in minutes</li>
+                <li><span class="dot"></span>No fluff. No sales pitch.</li>
+                <li><span class="dot"></span>Built on your actual website</li>
+            </ul>
+            <!-- <div class="ticker">
+                <span>Revenue gaps &nbsp;·&nbsp; Automation wins &nbsp;·&nbsp; Conversion leaks &nbsp;·&nbsp; AI readiness score &nbsp;·&nbsp; Revenue gaps &nbsp;·&nbsp; Automation wins &nbsp;·&nbsp; Conversion leaks &nbsp;·&nbsp; AI readiness score &nbsp;·&nbsp;</span>
+            </div> -->
+        </div>
+    </aside>
 
-        <input type="text" placeholder="Your Name" id="name" required>
+    <main class="right-col">
+        <div class="form-card">
+            <div class="form-header">
+                <div class="step-label">Step 1 of 1</div>
+                <div class="form-title">Tell us about yourself</div>
+            </div>
 
-        <input type="email" placeholder="Email" id="email" required>
+            <form id="leadForm" autocomplete="off">
+                <div class="field-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" placeholder="Alex Johnson" required>
+                </div>
+                <div class="field-group">
+                    <label for="email">Work Email</label>
+                    <input type="email" id="email" placeholder="alex@company.com" required>
+                </div>
+                <div class="field-row">
+                    <div class="field-group">
+                        <label for="company">Company</label>
+                        <input type="text" id="company" placeholder="Acme Inc." required>
+                    </div>
+                    <div class="field-group">
+                        <label for="website">Website</label>
+                        <input type="url" id="website" placeholder="https://acme.com" required>
+                    </div>
+                </div>
 
-        <input type="text" placeholder="Company Name" id="company" required>
+                <button type="submit" id="submitBtn">
+                    <span class="btn-text">Generate My Audit</span>
+                    <span class="btn-arrow">↗</span>
+                </button>
+            </form>
 
-        <input type="url" placeholder="Website URL" id="website" required>
+            <div id="status"></div>
 
-        <button type="submit">
-            Generate Audit
-        </button>
-
-    </form>
-
-    <div id="status"></div>
+            <p class="disclaimer">By submitting, you agree to receive your audit via email. Zero spam.</p>
+        </div>
+    </main>
 
 </div>
 
 <script src="/static/script.js"></script>
-
 </body>
 </html>

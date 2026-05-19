@@ -35,7 +35,7 @@ def generate_ai_report(company_data):
     """
 
     response = ollama.chat(
-        model='llama3',
+        model='mistral:7b',
         messages=[
             {
                 'role': 'user',
