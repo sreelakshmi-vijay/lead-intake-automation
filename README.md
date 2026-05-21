@@ -4,7 +4,7 @@
 Technical Assessment Submission
 This project was built as part of the technical assessment for the AI Software Developer Intern position at SimplifiIQ. It represents my solution to the provided assessment brief and is submitted via the required Google Form.
 
-> Drop in a lead's name, email, and website — get a personalized AI audit report delivered straight to their inbox.
+> Drop in a lead's name, email, and website — get a personalized AI audit report delivered straight to your inbox.
 
 ---
 
