@@ -127,11 +127,11 @@ Reports are grounded in the actual content scraped from the prospect's site, mak
 <img width="1919" height="940" alt="Screenshot 2026-05-19 151559" src="https://github.com/user-attachments/assets/62505045-e68e-4fc0-8ce1-3a90e22db9e2" />
 3. Website - Form Details
 <img width="1183" height="584" alt="Simplifi-IQ Assessment Output" src="https://github.com/user-attachments/assets/c114e203-b0a3-4f3a-b038-15161cb2695b" />
-4. Website - Form Submitted
-<img width="1917" height="944" alt="Screenshot 2026-05-19 155118" src="https://github.com/user-attachments/assets/50bca3e1-5aac-482e-b700-46b636534c1e" />
-5. Recieved Mail
+<!--4. Website - Form Submitted
+<img width="1917" height="944" alt="Screenshot 2026-05-19 155118" src="https://github.com/user-attachments/assets/50bca3e1-5aac-482e-b700-46b636534c1e" />-->
+4. Recieved Mail
 <img width="1587" height="488" alt="Screenshot 2026-05-19 153049" src="https://github.com/user-attachments/assets/cea3c2a8-7802-4934-ad49-bc19d66152b8" />
-6. Generated Report Pages
+5. Generated Report Pages
 <img width="1920" height="546" alt="Simplifi-IQ Assessment Output" src="https://github.com/user-attachments/assets/522d4d94-fa66-4fba-9c23-9897ce15f237" />
 
 ---
